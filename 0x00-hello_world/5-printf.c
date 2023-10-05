@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * A Function that print a string constant using printf.
- * Return 0 (success)
+ * main - A Function that print a string constant using printf.
+ * Return:  0 (success)
  */
 
  int main(void) 
