@@ -6,13 +6,14 @@
 
 #include <stdio.h>
 
-/*
+/**
  * main - A C language program that prints all single digit numbers of base 10
  * starting from 0 followed by a new line .
  *
  * Return : success (0)
  *
  */
+
 int main(void)
 {
 	int i = 0;
