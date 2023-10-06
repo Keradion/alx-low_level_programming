@@ -23,5 +23,6 @@ while (i < 10)
 i++;
 }
 
+printf("\n");
 return (0);
 }
