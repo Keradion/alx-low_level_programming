@@ -2,7 +2,7 @@
  * Author : Daniel Berihun 
  * Title : 5-print_numbers.c
  *
- */
+ i*/
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main(void)
 {
 	int i = 0;
 
-while (i < 10)i
+while (i < 10)
 {
 	printf("%d", i);
 i++;
