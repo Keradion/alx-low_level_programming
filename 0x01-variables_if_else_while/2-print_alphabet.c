@@ -9,7 +9,7 @@
 /**
  * main - a C program that prints all lowercase alphabetic charachters
  *
- * return : 0 Successful
+ * return: 0 Successful
  */
 
 int main(void)
