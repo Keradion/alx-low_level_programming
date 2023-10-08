@@ -15,18 +15,17 @@
  *
  */
 
-int main() {
-    
+int main(void)
+{ 
 int i = 97;
+while(i < 123 )
     
-    while(i < 123 )
-    
-    {
-    putchar(i);
-    i++ ;
-    } 
+{
+putchar(i);
+i++ ;
+} 
  
-    putchar('\n');
+putchar('\n');
 
-  return 0;
+return (0);
 }
