@@ -11,7 +11,7 @@
  * Description : a C program that prints all alphabetic charachters 
  * in lowercase followed by a new line .
  *
- * Return : Always 0 (Success)
+ * Return - 0 Successful
  *
  */
 
