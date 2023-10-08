@@ -7,10 +7,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description : a C program that prints all alphabetic charachters
- * in lowercase followed by a new line .
- * return - 0 Successful
+ * main - a C program that prints all lowercase alphabetic charachters
+ *
+ * return : 0 Successful
  */
 
 int main(void)
