@@ -10,7 +10,6 @@
  * main - Entry point
  * Description : a C program that prints all alphabetic charachters
  * in lowercase followed by a new line .
- *
  * Return - 0 Successful
  *
  */
