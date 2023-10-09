@@ -1,6 +1,6 @@
 /*
- * Author : Daniel Berihun
- * Title : 2-print_alphabet.c
+ * Author : Daniel 
+ * Title : 2-print_alphabet.
  *
  */
 
@@ -29,7 +29,7 @@ else if (n < 0)
 printf("%d is negative", n);
 putchar('\n'); 
 }
-else
+
 { 
 printf("%d is zero", n);
 putchar('\n'); 
