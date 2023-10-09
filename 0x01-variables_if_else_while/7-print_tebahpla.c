@@ -8,18 +8,19 @@
 #include <stdio.h>
 
 /**
- * main - a C program that print all lowecase letters in reverse  
+ * main - a C program that print all lowecase letters in reverse
  *
  * Return: Always 0
  */
 
-int main(void) 
+int main(void)
 {
 int i = 122;
 while (i > 96)
 {
 putchar(i);
 --i;
-} 
-return 0;
+}
+putchar('\n');
+return (0);
 }
