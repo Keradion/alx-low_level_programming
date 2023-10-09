@@ -6,7 +6,7 @@
 
 #include <stdlib.h>
 #include <time.h>
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - a C program that check whether a given random number is + - or 0
