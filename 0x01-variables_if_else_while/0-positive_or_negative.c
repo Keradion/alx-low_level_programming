@@ -1,5 +1,5 @@
 /*
- * Author : Daniel 
+ * Author : Daniel
  * Title : 2-print_alphabet.
  *
  */
@@ -27,12 +27,12 @@ putchar('\n');
 else if (n < 0)
 {
 printf("%d is negative", n);
-putchar('\n'); 
+putchar('\n');
 }
-else 
+else
 {
 printf("%d is zero", n);
-putchar('\n'); 
+putchar('\n');
 }
 return (0);
 }
