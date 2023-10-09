@@ -36,4 +36,4 @@ else
 printf("%d is zero", n);
 putchar('\n'); }
 return (0);
-i}
+}
