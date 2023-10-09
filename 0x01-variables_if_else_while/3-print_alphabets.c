@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 /**
- * main - a C program that prints all lowercase then upercase alphabetic charach * ters
+ * main - a C program that prints all lowercase then upercase letters
  *
  * Return: Always 0
  */
