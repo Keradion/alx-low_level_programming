@@ -14,16 +14,16 @@
  */
 
 
-int main(void) 
-{ 
+int main(void)
+{
 {
 int i = 97;
 while (i < 123)
 {
 putchar(i);
 i++;
-} 
-} 
+}
+}
 {
 int j = 65;
 while (j < 91)
