@@ -10,7 +10,7 @@
 /**
  * main - a C program that prints all lowercase then upercase alphabetic charach * ters
  *
- * return: Always 0
+ * Return: Always 0
  */
 
 
