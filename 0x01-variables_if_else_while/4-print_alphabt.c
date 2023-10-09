@@ -8,12 +8,12 @@
 #include <stdio.h>
 
 /**
- * main - A C program that prints all lowercase alphabetic charachters except P & q
+ * main - A C program that prints all lowercase letters except P & q
  *
  * Return: Always 0
  */
 
-int main(void) 
+int main(void)
 {
 int i = 97;
 while (i < 123)
@@ -21,7 +21,7 @@ while (i < 123)
 if (i != 113 && i != 101)
 putchar(i);
 i++;
-} 
+}
 putchar('\n');
 return (0);
 }
