@@ -12,11 +12,11 @@
  * Return: Always 0
  */
 
-int main(void) 
+int main(void)
 {
 int i = 48;
 while (i < 58)
-{  
+{
 putchar(i);
 while (i < 57)
 {
