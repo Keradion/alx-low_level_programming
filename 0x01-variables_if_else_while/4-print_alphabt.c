@@ -13,14 +13,14 @@
  * Return: Always 0
  */
 
-int main() 
+int main(void) 
 {
 int i = 97;
-while(i < 123)
+while (i < 123)
 {
 if (i != 113 && i != 101)
 putchar(i);
-i++ ;
+i++;
 } 
 putchar('\n');
 return (0);
