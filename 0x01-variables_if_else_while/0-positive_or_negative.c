@@ -21,19 +21,19 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-if (n>0)
+if (n> 0)
 {
-printf("%d is positive",n);
+printf("%d is positive", n);
 putchar('\n');
 }
-else if (n<0)
+else if (n< 0)
 {
-printf("%d is negative",n);
+printf("%d is negative", n);
 putchar('\n'); 
 }
 else
 { 
-printf("%d is zero",n);
+printf("%d is zero", n);
 putchar('\n'); }
 return (0);
-}
+i}
