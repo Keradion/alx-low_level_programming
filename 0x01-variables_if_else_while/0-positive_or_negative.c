@@ -32,6 +32,7 @@ putchar('\n');
 else
 { 
 printf("%d is zero", n);
-putchar('\n'); }
+putchar('\n'); 
+}
 return (0);
 }
