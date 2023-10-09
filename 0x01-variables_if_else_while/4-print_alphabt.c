@@ -18,7 +18,7 @@ int main()
 int i = 97;
 while(i < 123)
 {
-if (i != 112 && i != 113)
+if (i != 112 && i != 101)
 putchar(i);
 i++ ;
 } 
