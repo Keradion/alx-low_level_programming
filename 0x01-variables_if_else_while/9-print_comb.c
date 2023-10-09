@@ -12,17 +12,20 @@
  * Return: Always 0
  */
 
-int main(void)
+int main(void) 
 {
 int i = 48;
+while (i < 58)
+{  
+putchar(i);
 while (i < 57)
 {
-putchar(i);
 putchar(44);
 putchar(' ');
+break;
+}
 i++;
 }
-putchar(i);
 putchar('\n');
 return (0);
 }
