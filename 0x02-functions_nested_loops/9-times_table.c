@@ -19,6 +19,7 @@ while (j < 10)
 printf("%d", (i * j));
 putchar(44);
 putchar(' ');
+putchar(' ');
 j++;
 }
 putchar('\n');
