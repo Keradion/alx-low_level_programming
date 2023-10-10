@@ -6,6 +6,7 @@
 
 void print_alphabet_x10(void)
 {
+
 int i = 97;	
 int j = 0;
 
@@ -17,8 +18,7 @@ _putchar(i);
 i++;
 }
 _putchar('\n');
-
-i = 97;	
+i = 97;
 j++;
 }
 }
