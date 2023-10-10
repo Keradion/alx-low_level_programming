@@ -4,10 +4,12 @@
 /**
  * print_last_digit prints last digit of a given number
  *@n: number
+ *@x: last_digit
  * Return: value of last digit
  */
 
 int print_last_digit(int n)
 {
-   return (n%10);
+int x = printf("%d", n%10);
+return (x);
 }
