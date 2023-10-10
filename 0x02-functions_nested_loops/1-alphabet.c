@@ -6,7 +6,7 @@
 
 #include "main.h"
 
-/*
+/**
  * print_alphabet - a function that prints letters in lowercase
  *
  * Return : void
