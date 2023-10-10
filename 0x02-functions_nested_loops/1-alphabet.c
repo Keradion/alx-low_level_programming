@@ -8,6 +8,7 @@
 
 /*
  * main - a function that prints letters in lowercase
+ *
  */
 
 void print_alphabet(void)
