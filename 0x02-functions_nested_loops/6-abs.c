@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * abs : determine the absolute value of a given number
+ *_ abs() - determine the absolute value of a given number
  *@n: number
  * Return: Always 0
  */
@@ -13,6 +13,6 @@ if (n > 0)
 return (n);
 else if (n == 0)
 return (0);
-else 
+else
 return (-n);
 }
