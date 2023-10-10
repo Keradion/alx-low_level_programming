@@ -1,3 +1,9 @@
+/*
+ * Author : Daniel
+ * Title : 2-print_alphabet.
+ *
+ */
+
 #include "main.h"
 
 /*
@@ -6,7 +12,7 @@
  * Return: Always 0
  */
 
-void print_alphabet();
+void print_alphabet(void);
 
 int main(void)
 {
