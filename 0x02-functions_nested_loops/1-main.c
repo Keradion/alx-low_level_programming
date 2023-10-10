@@ -1,8 +1,11 @@
+#include "main.h"
+
 /*
  * main - check thecode for print_alphabet
  *
  * Return: Always 0.
  */
+
 
 int main(void)
 {
