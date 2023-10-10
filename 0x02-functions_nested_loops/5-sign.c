@@ -2,9 +2,8 @@
 
 /**
  * print_sign - a function that prints the sign of a number
- *
- * @:number 
- * Return: 1 and print + if n > 0 , 0 and prints 0 if n=0 , -1 and prints - if n < 0
+ * @n: number
+ * Return: 1 if n > 0, -1 if n < 0 , 0 if n=0
  */
 
 int print_sign(int n)
