@@ -2,7 +2,8 @@
 
 /**
  * print_sign - a function that prints the sign of a number
- * @: n is a number
+ *
+ * @:number 
  * Return: 1 and print + if n > 0 , 0 and prints 0 if n=0 , -1 and prints - if n < 0
  */
 
