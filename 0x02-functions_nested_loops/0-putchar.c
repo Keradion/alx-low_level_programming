@@ -1,4 +1,16 @@
+/*
+ * Author : Daniel
+ * Title : 2-print_alphabet.
+ *
+ */
+
 #include "main.h"
+
+/**
+ * main - a C function that prints a string using _putchar pre-defined function
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {
