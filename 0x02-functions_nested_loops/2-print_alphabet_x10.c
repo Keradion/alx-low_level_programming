@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  *main - a function that prints letters in lowercase_10x
  */
 
