@@ -17,11 +17,11 @@ while (i < 10)
 while (j < 10)
 {
 printf("%d", (i * j));
-_putchar(',');
-_putchar(' ');
+putchar(44);
+putchar(' ');
 j++;
 }
-_putchar('\n');
+putchar('\n');
 j = 0;
 i++;
 }
