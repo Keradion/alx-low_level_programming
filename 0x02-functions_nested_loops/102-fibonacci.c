@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - a function that prints the first 50 numbers of the series
- * @first_element: first digit of the series
  *
  * Return: Always 0
  */
@@ -11,7 +10,7 @@ int main(void)
 {
 int first_element = 1;
 int second_element = 2;
-int next_element ;
+int next_element;
 int i = 1;
 while (i <= 50)
 {
