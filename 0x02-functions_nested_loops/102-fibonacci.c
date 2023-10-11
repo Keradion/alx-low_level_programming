@@ -23,13 +23,15 @@ int next_element ;
 int i = 1;
 while (i <= 50)
 {
+printf("%d", first_element);
+printf(",");
+printf("%d ", second_element);
 next_element = first_element  + second_element;
 first_element = second_element;
 second_element = next_element;
 if (next_element < 0 )
 next_element = (- next_element);
 printf("%d", next_element);
-printf(", ");
 i++;
 }
 printf("\n");
