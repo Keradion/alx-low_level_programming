@@ -15,6 +15,6 @@ if (number % 3 == 0 || number % 5 == 0)
 sum = sum + number;
 number++;
 }
-printf("%d \n", sum);
-return 0;
+printf("%d\n", sum);
+return (0);
 }
