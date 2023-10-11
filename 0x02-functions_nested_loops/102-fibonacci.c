@@ -5,16 +5,15 @@
  * Return: Always 0
  */
 
-
 int main(void)
 {
-int first_element = 1;
-int second_element = 2;
-int next_element;
-int i = 1;
+long int first_element = 1;
+long int second_element = 2;
+long int next_element;
+long int i = 1;
 while (i <= 50)
 {
-printf("%d", first_element);
+printf("%ld", first_element);
 if (i < 50)
 {printf(", ");
 }
