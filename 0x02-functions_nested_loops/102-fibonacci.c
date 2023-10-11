@@ -9,6 +9,12 @@
  * Return: Always 0
  */
 
+int main()
+{
+	fibonacci();
+	return (0);
+}
+
 int fibonacci(void)
 {
 int first_element = 1;
