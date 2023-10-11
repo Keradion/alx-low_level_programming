@@ -7,7 +7,7 @@
  */
 
 
-int main()
+int main(void)
 {
 int first_element = 1;
 int second_element = 2;
