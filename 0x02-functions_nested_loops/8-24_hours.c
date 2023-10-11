@@ -31,6 +31,8 @@ printf("%d", l);
 printf("\n");
 l++;
 }
+else 
+return;
 }
 k++;
 l = 0;
