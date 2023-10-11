@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * jack_bauer - print day hours from 00:00 to 23:59
  *
@@ -20,7 +21,7 @@ while (k < 6)
 {
 while (l < 10)
 {
-if (!( i == 2 && j == 4 && k == 0 && l == 0))
+if (!(i == 2 && j == 4 && k == 0 && l == 0))
 { 
 printf("%d", i);
 printf("%d", j);
@@ -29,7 +30,6 @@ printf("%d", l);
 printf("\n");
 l++;
 }
-
 }
 k++;
 l = 0;
