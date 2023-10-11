@@ -5,7 +5,8 @@
  * main - prints the first 98 fibonacci numbers
  *
  * Return: Always 0
- */ 
+ */
+
 int main(void)
 {
 unsigned long int first_term = 1;
