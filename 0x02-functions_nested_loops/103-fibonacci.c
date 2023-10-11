@@ -24,5 +24,5 @@ second_element = next_element;
 }
 printf("%lu", sum);
 printf("\n");
-return 0;
+return (0);
 }
