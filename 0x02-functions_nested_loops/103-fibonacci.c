@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a function that prints sum of even numbers in fibonacci starting from 1-4M
+ * main - a function that prints sum of even numbers in fibonacci series
  *
  * Return: Always 0
  */
@@ -22,7 +22,7 @@ next_element = first_element + second_element;
 first_element = second_element;
 second_element = next_element;
 }
-printf("%lu", sum );
+printf("%lu", sum);
 printf("\n");
 return 0;
 }
