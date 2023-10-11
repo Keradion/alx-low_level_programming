@@ -33,7 +33,7 @@ l++;
 }
 else
 
-return;
+break;
 }
 k++;
 l = 0;
