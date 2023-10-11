@@ -31,9 +31,6 @@ printf("%d", l);
 printf("\n");
 l++;
 }
-else
-
-break;
 }
 k++;
 l = 0;
