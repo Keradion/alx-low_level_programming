@@ -4,7 +4,7 @@
  * _isupper - check an alphabetic upper case charachter
  * @c: alphabetic charachter
  *
- * Return: 1 uppercase 0  not
+ * Return: Always 1 0r 0
  */
 
 int _isupper(int c)
