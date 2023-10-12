@@ -22,6 +22,6 @@ while (i < n)
 _putchar('_');
 i++;
 }
-}
 _putchar('\n');
+}
 }
