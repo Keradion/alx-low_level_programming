@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print multiples of 3 and 5 as Fizz and Buzz & FizBuzz for 3&5 multiples
+ * main - multiples of 3 and 5 as Fizz and Buzz & FizBuzz for 3&5 
  *
  * Return: void
  */
