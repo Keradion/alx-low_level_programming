@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers - prints numbers from 0 - 14 10x
+ * more_numbers - a function that prints numbers from 0 - 14 10x
  *
  * Return: void
  */
