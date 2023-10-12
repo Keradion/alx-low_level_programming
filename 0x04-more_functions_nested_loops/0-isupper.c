@@ -2,7 +2,7 @@
 
 /**
  * isupper - check an alphabetic upper case charachter
- *
+ * @c: alphabetic charachter
  * Return: 1 uppercase 0  not
  */
 
