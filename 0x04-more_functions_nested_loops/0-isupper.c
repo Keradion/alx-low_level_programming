@@ -9,7 +9,7 @@
 
 int _isupper(int c)
 {
-if (c > 64 && c < 92)
+if (c >= 'A' && c <= 'Z'g
 return (1);
 else
 return (0);
