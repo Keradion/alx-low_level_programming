@@ -4,7 +4,7 @@
 /**
  * more_numbers - prints numbers from 0 - 14 10x
  *
- * Return : void
+ * Return: void
  */
 
 void more_numbers(void)
@@ -31,4 +31,5 @@ i = 48;
 j = 48;
 k++;
 }
+return;
 }
