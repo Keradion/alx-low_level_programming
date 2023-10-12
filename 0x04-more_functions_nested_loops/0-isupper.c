@@ -13,5 +13,4 @@ if (c > 64 && c < 92)
 return (1);
 else
 return (0);
-
 }
