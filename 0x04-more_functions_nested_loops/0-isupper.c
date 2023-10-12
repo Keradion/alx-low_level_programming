@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check an alphabetic upper case charachter
- * @c: alphabetic charachter
+ * @c: char to check
  *
  * Return: Always 1 0r 0
  */
