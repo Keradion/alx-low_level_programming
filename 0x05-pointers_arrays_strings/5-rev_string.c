@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_string - reverse a string 
+ * rev_string - a function that reverse a givn string
  * @s: string pointer variable
  *
  * Return: void
@@ -32,5 +32,4 @@ i++;
 j--;
 
 }
-
 }
