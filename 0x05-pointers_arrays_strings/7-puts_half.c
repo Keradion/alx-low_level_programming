@@ -33,7 +33,7 @@ int i = 0;
 		i = (len - 1) / 2;
 	while (str[i] != '\0')
 	{
-		_putchar(str[i + 2]);
+		_putchar(str[i + 1  ]);
 		i++;
 	}
 
