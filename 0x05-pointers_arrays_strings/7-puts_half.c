@@ -28,12 +28,12 @@ int i = 0;
 			i++;
 		}
 	}
-	else if (len % 2)
+	else if (len % 2 == 1)
 	{
 		i = (len - 1) / 2;
 	while (str[i] != '\0')
 	{
-		_putchar(str[i + 1]);
+		_putchar(str[i + 2]);
 		i++;
 	}
 
