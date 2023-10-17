@@ -29,7 +29,7 @@ int i = 0;
 		}
 	}
 
-	else if (len % 2 )
+else if (len % 2)
 	{
 		i = (len - 1) / 2;
 	while (str[i] != '\0')
