@@ -28,7 +28,7 @@ int i = 0;
 			i++;
 		}
 	}
-	else if (len % 2 == 1)
+	else 
 	{
 		i = (len - 1) / 2;
 	while (str[i] != '\0')
