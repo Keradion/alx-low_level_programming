@@ -29,7 +29,7 @@ int i = 0;
 		}
 	}
 
-	else if (len % 2 != 0)
+	else if (len % 2 )
 	{
 		i = (len - 1) / 2;
 	while (str[i] != '\0')
@@ -37,7 +37,7 @@ int i = 0;
 		_putchar(str[i + 1]);
 		i++;
 	}
-	}	
 
+}
 _putchar('\n');
 }
