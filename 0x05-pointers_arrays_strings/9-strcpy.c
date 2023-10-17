@@ -19,11 +19,11 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 	
-	for (i = 0 ; i<= len - 1; i++)
+	for (i = 0 ; i<= len ; i++)
 	{
 		dest[i] = src[i];
 	}
-	dest[i] = '\0';
+	
 
 	return (dest);
 }
