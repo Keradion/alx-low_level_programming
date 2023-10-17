@@ -28,7 +28,6 @@ int i = 0;
 			i++;
 		}
 	}
-	
 	else if (len % 2)
 	{
 		i = (len - 1) / 2;
