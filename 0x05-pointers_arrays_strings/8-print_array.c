@@ -3,19 +3,19 @@
 
 /**
  * print_array - prints n number of integer array
- * @*a: pointer integer variable
+ * @a: pointer integer variable
  * @n: integer variable
  *
- * Return: void 
+ * Return: void
  */
 
 void print_array(int *a, int n)
 {
 	int i = 0;
 
-	for ( i = 0; i < n; i++)
+	for(i = 0; i < n; i++)
 	{
-		if (i == 0)
+	if (i == 0)
 
 		printf("%d", a[i]);
 		else
