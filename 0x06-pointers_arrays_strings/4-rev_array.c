@@ -3,7 +3,7 @@
 /**
  * reverse_array - reverse the content of an arry of integers
  * @a: pointer to array
- * @n - size of array elements
+ * @n: size of array elements
  *
  * Return: void
  */
