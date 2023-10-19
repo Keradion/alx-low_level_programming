@@ -6,7 +6,7 @@
  * @src: string 2
  * @n: number of charachter to be concatenated
  *
- * Return: dest
+ * Return: char 
  */
 
 char *_strncat(char *dest, char *src, int n)
