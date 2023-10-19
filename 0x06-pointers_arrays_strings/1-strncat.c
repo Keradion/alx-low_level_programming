@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strncat - conacatenates n charachters of string 2 into string 1
+ * _strncat - conacatenates n charachters of string 
  * @dest: string 1
  * @src: string 2
  * @n: number of charachter to be concatenated
  *
- * Return: char
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -20,10 +20,11 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 	i = 0;
-	for (i = 0 ; i <= (n - 1); i++)
+	for (i = 0 ; i < n && src[i] !='\0' ; i++)
 	{
 	dest[count++] = src[i];
 	}
+	dest[count] = '\0';
 
 	return (dest);
 }
