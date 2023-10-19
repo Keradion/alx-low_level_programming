@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - function that conactenates two strings 
+ * _stract - concatenate two strings
  * @dest: string variable
  * @src: string variable
  *
@@ -11,12 +11,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i ;
-	int j ;
+	int i;
+	int j;
 	int count1 = 0;
 	int count2 = 0;
-	i = 0;
 
+	i = 0;
 	while (dest[i] != '\0')
 	{
 		count1++;
