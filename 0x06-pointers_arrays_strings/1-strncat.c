@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - conacatenates n charachters of string 
+ * _strncat - concatenates n charachters of a string
  * @dest: string 1
  * @src: string 2
  * @n: number of charachter to be concatenated
@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 	i = 0;
-	for (i = 0 ; i < n && src[i] !='\0' ; i++)
+	for (i = 0 ; i < n && src[i] != '\0' ; i++)
 	{
 	dest[count++] = src[i];
 	}
