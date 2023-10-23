@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * _memset - function that fill n bytes of the memeory area pointed to 
- * by s with the constant byte b
+ * _memset - function that fill n bytes of memory
  * @s: pointer that point memeory location to be fill
  * @b: constant byte (char)
  * @n: bytes of memory to be fill
  *
- * Return: a pointer to s 
- */
-
+ * Return: a pointer to s
+ */ 
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i = 0;
