@@ -6,7 +6,7 @@
  * @src: pointer that hold address to be copy from
  * @n: bytes to be copy from src
  *
- * Return: *dest pointer 
+ * Return: *dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
