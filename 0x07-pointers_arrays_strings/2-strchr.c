@@ -5,7 +5,7 @@
  * @s: pointer to string
  * @c: target character to be search
  *
- * Return: pointer address
+ * Return: pointer adress
  */
 
 char *_strchr(char *s, char c)
