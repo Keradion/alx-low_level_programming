@@ -3,7 +3,7 @@
 /**
  * _strchr - function that lochates a character in a string
  * @s: pointer to string
- * @c: target character to be search
+ * @c: target character to be search inside a string
  *
  * Return: pointer adress
  */
