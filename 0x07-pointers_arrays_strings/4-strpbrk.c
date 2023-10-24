@@ -24,16 +24,23 @@ char *_strpbrk(char *s, char *accept)
 	{
 		count++;
 	}
-
+	{
 	for (i = 0; i <= len; i++)
 	{
+
 	for (j = 0; j <= count; j++)
 	{
+
 		if (s[i] == accept[j])
 			return (&s[i]);
+
 	}
+
 	}
 	return ('\0');
+	}
+
+
 }
 
 
