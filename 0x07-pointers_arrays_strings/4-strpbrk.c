@@ -24,8 +24,6 @@ char *_strpbrk(char *s, char *accept)
 	{
 		count++;
 	}
-	
-
 	for (i = 0; i < len; i++)
 	{
 
@@ -39,9 +37,4 @@ char *_strpbrk(char *s, char *accept)
 
 	}
 	return ('\0');
-	
-
-
 }
-
-
