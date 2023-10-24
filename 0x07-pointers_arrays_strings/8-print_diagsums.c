@@ -27,6 +27,7 @@ void print_diagsums(int *a, int size)
 	i = 0;
 	j = 0;
 	sum = 0;
+
 	for (i = 0; i < size; i++)
 	{
 		for ( j = 2 - i; j == 2 - i ; j--)
