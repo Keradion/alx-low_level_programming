@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
  * _strchr - function that lochates a character in a string
  * @s: pointer to string
@@ -24,8 +24,9 @@ char *_strchr(char *s, char c)
 		}
 		else
 		{
-			return (0);
+			return NULL;
 		}
+
 
 }
 return (0);
