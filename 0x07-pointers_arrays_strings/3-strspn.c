@@ -30,11 +30,11 @@ unsigned int _strspn(char *s, char *accept)
 		for (j = 0; j < len1; j++)
 		{
 			if (s[i] == accept[j])
-			 count++;
+				count++;
 		}
 		result++;
-	
-		if ( count < result  )
+
+		if (count < result)
 			break;
 	}
 	return (count);
