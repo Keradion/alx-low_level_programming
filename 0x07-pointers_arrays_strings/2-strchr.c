@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strchr - find a charachter occurence in a string
+ * _strchr - find a charachter occurence in a given string
  * @s: pointer to string
  * @c: target character to be search inside a string
  *
