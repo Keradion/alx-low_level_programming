@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strchr - function that lochates a character in a string
+ * _strchr - find a charachter occurence in a string
  * @s: pointer to string
  * @c: target character to be search inside a string
  *
@@ -22,12 +22,8 @@ char *_strchr(char *s, char c)
 
 	return (&s[count]);
 		}
-		else
-		{
-			return NULL;
-		}
-
+			
+		return NULL;
 
 }
-return (0);
 }
