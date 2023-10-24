@@ -32,8 +32,16 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; i < len1; i++)
 	{
+		if (s[i] == s[i])
+		{
+				break;
+				
+		}
+
+				else
 		for (j = 0; j < len; j++)
 		{
+
 			if (s[i] == accept[j])
 
 			{
