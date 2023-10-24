@@ -5,7 +5,8 @@
  * @s: string pointer
  * @accept: string pointer
  *
- * Return: pointer to the byte in s 
+ * Return: pointer
+ *
  */
 char *_strpbrk(char *s, char *accept)
 {
