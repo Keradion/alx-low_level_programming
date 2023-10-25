@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * factoral - retun a fuctorial of a given number n
+ * factorial - retun a factorial of a given number n
  * @n: number
  *
  * Return: always 0 sucess
