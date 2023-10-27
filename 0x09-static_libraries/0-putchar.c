@@ -12,7 +12,7 @@
  * Return: Always 0
  */
 
-int main(void)
+int main1(void)
 {
 	_putchar('_');
 	_putchar('p');
