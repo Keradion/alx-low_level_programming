@@ -16,22 +16,16 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 		printf("%d\n", 0);
-	else 
-
+	else
 	{
-
 	for (i = 1; i < argc; i++)
-
 	{
-			
 		num = atoi(argv[i]);
 
 		if (num >= 0)
 		sum = sum + num;
-		
 	}
 	printf("%d\n", sum);
 	}
-	
 	return (0);
 }
