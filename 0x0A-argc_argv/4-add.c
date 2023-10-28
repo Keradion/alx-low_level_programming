@@ -23,12 +23,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 
 	{
-		if (argv[i] > '9' || argv[i] < '0')
 			
-		printf("%s\n", "Error");
-
-		
-
 		num = atoi(argv[i]);
 
 		if (num >= 0)
