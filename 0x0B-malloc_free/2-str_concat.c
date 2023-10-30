@@ -15,12 +15,24 @@ char *str_concat(char *s1, char *s2)
 	int len1 = 0;
 	int i = 0;
 	char *ptr = NULL;
+	char *null = NULL;
 
-	while (s1[len] != '\0')
+	if (s1 == null)
+		len = 0;
+	else
+	{
+		while (s1[len] != '\0')
 		len++;
+	}
 
-	while (s2[len1] != '\0')
+	if (s2 == null)
+		len1 = 0;
+	else
+	{
+		while (s2[len1] != '\0')
 		len1++;
+	}
+
 	ptr = (char *)malloc(len + len1 + 1);
 
 	if (ptr == NULL)
