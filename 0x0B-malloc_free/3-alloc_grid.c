@@ -6,6 +6,8 @@
  * @width: column number
  * @height: row number
  *
+ * Return: pointer
+ *
  */
 int **alloc_grid(int width, int height)
 {
@@ -21,7 +23,6 @@ int **alloc_grid(int width, int height)
 
 	if (ptr == NULL)
 		return (NULL);
-	
 	for (i = 0; i < height; i++)
 	{
 		ptr[i] = (int *)malloc(sizeof(int) * width);
