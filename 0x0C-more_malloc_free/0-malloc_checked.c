@@ -5,13 +5,12 @@
  * malloc_checked - allocate memory using malloc
  * @b: number of bytes
  *
- * Return: nothing 
+ * Return: void
  */
 
 void *malloc_checked(unsigned int b)
 {
 	int *ptr = NULL;
-	
 	ptr = malloc(b);
 
 	if (ptr == NULL)
