@@ -23,9 +23,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		len2++;
 
 	if (s1 == NULL)
-		len1 = 0;
+		s1 = " ";
 	if (s2 == NULL)
-		len2 = 0;
+		s2 = " ";
 
 	if (n >= len2)
 		n = len2;
