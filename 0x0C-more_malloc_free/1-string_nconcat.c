@@ -5,8 +5,7 @@
  * string_nconcat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
- * @n: bytes from s2 
- *
+ *@n: bytes to concat
  * Return: pointer to new location
  */
 
@@ -23,7 +22,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s2[len1] != '\0')
 		len1++;
 
-		
 	ptr = malloc(len + n + 1);
 
 	if (ptr == NULL)
