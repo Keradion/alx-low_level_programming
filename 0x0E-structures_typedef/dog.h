@@ -9,8 +9,7 @@
  *
  * Description: struct dog structure data type
  */
- 
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
