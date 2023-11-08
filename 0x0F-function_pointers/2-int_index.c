@@ -26,7 +26,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 
 		response = cmp(array[i]);
-		if (response != 0)
+		if (response == 1)
 			return (i);
 	}
 	return (-1);
