@@ -22,7 +22,7 @@ int i;
 for (i = 0; i < 5; i++)
 {
 	if (*ops[i].op == *s && *(++s) == '\0')
-		return (op[i].f);
+		return (ops[i].f);
 }
 return (NULL);
 }
