@@ -28,9 +28,9 @@ size_t print_list(const list_t *h)
 	}
 		root = root->next;
 
-		/* to move to the next node we set its address into node pointer h */
+		/* to move to the next node we set its address into node pointer root */
 
-		/* h now holds address of the next node */
+		/* root now holds address of the next node */
 		count++;
 
 	}
