@@ -11,7 +11,18 @@
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
+	unsigned int count = 0;
 	listint_t *temp = head;
+
+	while (head->next != NULL)
+	{
+		head = head->next;
+		count++;
+	}
+
+	if (index > count)
+
+		return (NULL);
 
 	/* iteration till the taregt node address stored in temp */
 
@@ -23,8 +34,6 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 
 	/* if the index is not found no node exist at that inde */
 
-	if (temp == NULL)
-		return (NULL);
 
 	return (temp);
 }
