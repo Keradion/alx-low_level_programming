@@ -19,20 +19,19 @@ int _atoi(char *s)
 
 	if (s[j] == '-' || s[j] == '+')
 
-        sign = -1;
+       sign = -1;
 
 	else 
 		sign = 1;
 
 
-	j++;
-	count++;
+	j++;	
 
 	}
 
 
 	i = 0;
-
+i
 	for (i = 0; i < count; i++)
 	{
 		digit = s[i] - '0';
