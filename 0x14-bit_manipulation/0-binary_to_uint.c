@@ -35,3 +35,25 @@ unsigned int binary_to_uint(const char *b)
 	}
 	return (decimal);
 }
+
+int power(int n)
+{
+	                int result = 1;
+			                        int exponent = n;
+						                                int i = 1;
+
+										                                        if (exponent == 0)
+																                                                                return 1;
+
+
+															                                                while(i <= exponent)
+																						                                                                {
+																															                                                                                        result = result * 2;
+
+																																										 i++;
+
+																																										          }
+
+																					                                                        return result;
+}
+
