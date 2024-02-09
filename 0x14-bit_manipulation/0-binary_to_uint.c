@@ -7,7 +7,6 @@
  * Return: 0 or deciaml
  *
  */
-
 unsigned int binary_to_uint(const char *b)
 {
 	const char *temp = b;
@@ -35,25 +34,24 @@ unsigned int binary_to_uint(const char *b)
 	}
 	return (decimal);
 }
-
+/**
+ * power - computer exponentation
+ * @n: power
+ *
+ * Return: result of exponentation
+ */
 int power(int n)
 {
-	                int result = 1;
-			                        int exponent = n;
-						                                int i = 1;
+	int result = 1;
+	int exponent = n;
+	int i = 1;
 
-										                                        if (exponent == 0)
-																                                                                return 1;
-
-
-															                                                while(i <= exponent)
-																						                                                                {
-																															                                                                                        result = result * 2;
-
-																																										 i++;
-
-																																										          }
-
-																					                                                        return result;
+	if (exponent == 0)
+		return (1);
+	while (i <= exponent)
+	{
+		result = result * 2;
+		i++;
+	}
+	return (result);
 }
-
